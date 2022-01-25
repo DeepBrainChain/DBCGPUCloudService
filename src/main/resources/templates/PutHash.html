@@ -1,0 +1,28 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <center>
+    <form th:action="@{/Save_ResultHash}" method="post">
+        <p>机器ID：<input name="machine_id" type="text" placeholder="machine_id"></p>
+        <p>GPU 型号：<input name="gpu_type" type="password" placeholder="gpu_type"></p>
+        <p>机器内核数：<input name="gpu_num" type="text" placeholder="gpu_num"></p>
+        <p>cuda_core：<input name="cuda_core" type="password" placeholder="cuda_core"></p>
+        <p>GPU 内存：<input name="gpu_mem" type="text" placeholder="gpu_mem"></p>
+        <p>显卡的总算力点数：<input name="calc_point" type="password" placeholder="calc_point"></p>
+        <p>系统磁盘：<input name="sys_disk" type="text" placeholder="sys_disk"></p>
+        <p>数据U盘：<input name="data_disk" type="password" placeholder="data_disk"></p>
+        <p>Cpu 型号：<input name="cpu_type" type="text" placeholder="cpu_type"></p>
+        <p>CPU 核心数：<input name="cpu_core_num" type="password" placeholder=" cpu_core_num"></p>
+        <p>Cpu 使用率：<input name="cpu_type" type="text" placeholder="cpu_type"></p>
+        <p>密  码：<input name="cpu_rate" type="password" placeholder="cpu_rate"></p>
+        <p>内存：<input name="mem_num" type="text" placeholder="mem_num"></p>
+        <p>随机数：<input name="rand_str" type="password" placeholder="rand_str"></p>
+        <p>是否通过：<input name="is_support" type="text" placeholder="is_support"></p>
+        <button type="submit">提交</button>
+    </form>
+    </center>
+</body>
+</html>

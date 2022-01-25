@@ -1,0 +1,14 @@
+{
+  "name": "DeepBrainChain-MainChain",
+  "version": "1.0.0",
+  "description": "js develop example",
+  "main": "index.js",
+  "repository": "https://github.com/DeepBrainChain/DeepBrainChain-MainChain.git",
+  "author": "bobo <dongkaige@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "^4.10.1",
+    "minimist": "^1.2.5"
+  },
+  "type": "module"
+}
