@@ -1,9 +1,6 @@
 # DBCGPUCloudService
 DBC  JAVA GPU Cloud Service
 
-CPU服务器配置要求：8核CPU,16G内存，200G硬盘空间
-
-
 云平台服务器JAVA代码部署文档
 
 #部署JAVA代码之前，先创建数据库：
@@ -22,6 +19,7 @@ CPU服务器配置要求：8核CPU,16G内存，200G硬盘空间
 #3. 修改数据库地址信息
   ```shell
   spring.data.mongodb.uri=mongodb://usr:passwd@localhost:27017/database_name
+  usr和passwd要和mongo中database_name用户名密码一致
   ```
 #4. 编译打包程序
 ```shell
