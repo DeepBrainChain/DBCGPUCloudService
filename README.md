@@ -32,8 +32,8 @@ CPU服务器配置要求：8核CPU,16G内存，200G硬盘空间
 #5. 在服务器创建文件夹
 ```shell
    1) mkdir /data
-   2) cd /data &  mkdir /bin
-   3) cd /data &  mkdir /lib
+   2) cd /data &  mkdir bin
+   3) cd /data &  mkdir lib
  ```
 #6. 上传jar文件到服务器
 ```shell
