@@ -133,13 +133,13 @@ public class MachineDetailService {
 
 
                         if(longit == south.getInteger("East") && Slatitu == la.getInteger("South") && longit != null && Slatitu!=null){
-                            address = new JSONObject(getAddressInfoByLngAndLat(longit/10000d,Slatitu/10000d));
+                            address = new JSONObject(getAddressInfoByLngAndLat(longit/10000d,-Slatitu/10000d));
                         }else if ( longit == south.getInteger("East") && latitu == la.getInteger("North") && longit != null && latitu!=null){
                             address = new JSONObject(getAddressInfoByLngAndLat(longit/10000d,latitu/10000d));
                         }else if (Wlongit == south.getInteger("West") && latitu == la.getInteger("North") && Wlongit != null && latitu!=null){
-                            address = new JSONObject(getAddressInfoByLngAndLat(Wlongit/10000d,latitu/10000d));
+                            address = new JSONObject(getAddressInfoByLngAndLat(-Wlongit/10000d,latitu/10000d));
                         }else if (Wlongit == south.getInteger("West") && Slatitu == la.getInteger("South") && Wlongit != null && Slatitu!=null){
-                            address = new JSONObject(getAddressInfoByLngAndLat(Wlongit/10000d,Slatitu/10000d));
+                            address = new JSONObject(getAddressInfoByLngAndLat(-Wlongit/10000d,-Slatitu/10000d));
                         }
                         else {
                             return;
