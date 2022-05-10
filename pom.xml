@@ -9,10 +9,10 @@
 <!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
     </parent>
     <groupId>java.dbc</groupId>
-    <artifactId>GalaxyValidationService</artifactId>
+    <artifactId>DBCGPUCloudService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>GalaxyValidationService</name>
-    <description>GalaxyValidationService</description>
+    <name>DBCGPUCloudService</name>
+    <description>DBCGPUCloudService</description>
     
      <properties>
         <maven.compiler.release>11</maven.compiler.release>
